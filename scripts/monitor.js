@@ -51,3 +51,10 @@ function checkSystemHealth() {
 console.log(`Monitoring every ${config.interval}ms`);
 setInterval(checkSystemHealth, config.interval);
 checkSystemHealth();
+
+/**
+ * Optional: AI-Enhanced Monitoring (Experimental)
+ * Uncomment below to use advanced predictive monitoring
+ */
+// const aiMonitor = require('./monitor.ai.js');
+// aiMonitor.start();
